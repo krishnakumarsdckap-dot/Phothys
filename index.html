@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pothysmart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+@media (max-width:1024px){
+    header{
+        max-width: 100%;
+    }
+    .header2{
+        max-width: 100%;
+    }
+    .header1{
+        max-width: 100%;
+    }
+    .image1{
+         max-width: 108%;
+    }
+    .image2{
+         max-width: 108%;
+    }
+    .CuratedForYou{
+         max-width: 100%;
+         gap:15px
+    }
+}
+
+
+/*  */
+@media (max-width:768px){
+    header{
+        max-width: 100%;
+    }
+    .header2{
+        max-width: 100%;
+    }
+    .header1{
+        max-width: 100%;
+    }
+    .image1{
+         max-width: 100%;
+    }
+    .image2{
+         max-width: 100%;
+    }
+      .sub{
+    flex-direction: column;
+    width: 100%;
+  }
+  .div22{
+    max-width: 100%;
+    margin: auto;
+  }
+    .CuratedForYou{
+         max-width: 100%;
+         gap:10px;
+         display: flex;
+         flex-wrap: wrap;
+         height: max-content;
+         margin-bottom: 60px;
+    }
+    .newcard{
+        display: flex;
+         flex-wrap: wrap;
+    }
+     .newcard1{
+        display: flex;
+         flex-wrap: wrap;
+    }
+      .newcard2{
+    gap: 7px;
+    }
+    .fullfooter{
+         max-width: 100%;
+          display: flex;
+          flex-direction: column;
+         flex-wrap: wrap;
+    }
+    .footer-bottom{
+         max-width: 100%;
+         flex-direction: column;
+          display: flex;
+         flex-wrap: wrap;
+         padding-top: 10px;
+    }
+    .social-icons{
+        display: none;
+        
+           
+    }
+}
+/* -------- Tablets -------- */
+@media (max-width: 768px) {
+  .header1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .header2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+
+  .homes {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .searchbox {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .pothys img {
+    max-width: 150px;
+    height: auto;
+  }
+}
+
+/* -------- Mobiles -------- */
+@media (max-width: 480px) {
+  .header1 {
+    font-size: 14px;
+    gap: 6px;
+  }
+
+  .deliver {
+    font-size: 12px;
+  }
+
+  .call, .login {
+    font-size: 13px;
+  }
+
+  .header2 {
+    gap: 8px;
+  }
+
+  .homes {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .searchbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .searchbox input {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .searchbox button {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .pothys img {
+    max-width: 120px;
+  }
+}
+
+
+    </style>
+
+</head>
+
+<body
+    style="background-size: contain; background-image: url(&quot;https://d1sl07a7h3d3fr.cloudfront.net/admin/store/5aef855b-f4da-4c64-b031-6380eafdf68b-blob&quot;); background-color: #ecfff6;">
+    <header>
+        <!-- header 1 -->
+        <div class="header1">
+            <div class="home">HOME</div>
+            <div class="deliver">
+                <span><i class="material-icons" style="font-size: x-large;">&#xe55f;</i></span>Select Delivery Area or
+                Pickup Area
+            </div>
+            <div class="space"> </div>
+            <div class="call">
+
+                Call:+91-7305393222
+            </div>
+            <div class="login">login </div>
+        </div>
+    </header>
+    <!-- header2 -->
+    <div class="header2">
+        <div class="pothys">
+            <img class="pothy" src="Assets/pothys.png" alt="pothys">
+        </div>
+        <div class="shopby">
+            Shop By Category
+        </div>
+        <div class="homes">
+            <div style="color: mediumseagreen;">Home</div>
+            <div>Deals</div>
+            <div>New arrivals</div>
+        </div>
+
+
+
+        <div class="searchbox">
+            <input class="searc" type="text" id="a" placeholder="Search Our Products">
+            <button class="serch"><i style="color: #ffffff;" class="fa fa-search"></i></button>
+        </div>
+        <div class="kart">
+            <img src="Assets/shop.png" alt="">
+        </div>
+
+       
+    </div>
+    <!-- banner -->
+    <div class="bannerdiv">
+        <img class="image1" src="Assets/7d26cbfb-6d99-46d8-9406-a5a0c43c5854-pothysnatchiyar.jpeg" alt="">
+        <img class="image2" src="Assets/pothys_strip_banner.jpeg" alt="">
+    </div>
+    <!-- cured for you -->
+    <div class="Curated">
+        <div class="CuratedFor">
+            Curated For You
+        </div>
+        <div class="CuratedForYou">
+            <div class="round">
+                <div class="round1">
+
+                </div>
+                <div>
+                    Breakfast Cereals
+                </div>
+
+            </div>
+            <div class="round">
+                <div class="round2">
+
+                </div>
+                <div>
+                    Rice & Rice Products
+                </div>
+
+            </div>
+            <div class="round">
+                <div class="round3">
+
+                </div>
+                <div>
+                    Dairy Products
+                </div>
+
+            </div>
+            <div class="round">
+                <div class="round4">
+
+                </div>
+                <div>
+                    Masala & Spices
+                </div>
+
+            </div>
+            <div class="round">
+                <div class="round5">
+
+                </div>
+                <div>
+                    Instant Foods
+                </div>
+
+            </div>
+            <div class="round">
+                <div class="round6">
+
+                </div>
+                <div>
+                    Show more
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <!--  -->
+    </div>
+    <!-- main -->
+    <div class="main">
+        <div class="cardheading">
+            Shop By Category
+        </div>
+
+    <div class="sub">
+
+      <div class="div1 div22">
+
+        <div class="div44 pan1">
+
+        </div>
+        <div class="div55">
+          Fruits & Vege..
+        </div>
+
+      </div>
+      <div class="div2 div22">
+        <div class="div44 pan2">
+
+        </div>
+        <div class="div55">
+          Staples
+        </div>
+      </div>
+
+      <div class="div3 div22">
+
+        <div class="div44 pan3">
+<!-- image -->
+        </div>
+
+        <div class="div55">
+          Snacks & Namk..
+        </div>
+
+      </div>
+
+      <div class="div4 div22">
+        <div class="div44 pan4">
+
+        </div>
+        <div class="div55">
+          Beverages
+        </div>
+      </div>
+      <div class="div5 div22">
+        <div class="div44 pan5">
+
+        </div>
+        <div class="div55">
+          Chilled & Dairy..
+        </div>
+      </div>
+      <div class="div6 div22">
+        <div class="div44 pan6">
+
+        </div>
+        <div class="div55">
+          Ready To Cook
+        </div>
+      </div>
+
+
+
+      <div class="div7  div22">
+        <div class="div44 pan7">
+
+        </div>
+        <div class="div55">
+          Ready To Eat
+        </div>
+      </div>
+      <div class="div8  div22">
+        <div class="div44 pan8">
+
+        </div>
+        <div class="div55">
+          Baby Care
+        </div>
+      </div>
+      <div class="div9  div22">
+        <div class="div44 pan9">
+
+        </div>
+        <div class="div55">
+          Household Es...
+        </div>
+      </div>
+      <div class="div10 div22">
+        <div class="div44 pan10">
+
+        </div>
+        <div class="div55">
+          Cleaning Needs
+        </div>
+      </div>
+      <div class="div11 div22">
+        <div class="div44 pan11">
+
+        </div>
+        <div class="div55">
+          Feminine Care
+        </div>
+      </div>
+      <div class="div12 div22">
+        <div class="div44 pan12">
+
+        </div>
+        <div class="div55">
+          Health Care
+        </div>
+      </div>
+
+
+      <div class="div13 div22">
+        <div class="div44 pan13">
+
+        </div>
+        <div class="div55">
+          Personal Care
+        </div>
+      </div>
+      <div class="div14 div22">
+        <div class="div44 pan14">
+
+        </div>
+        <div class="div55">
+          Stationaries
+        </div>
+      </div>
+      <div class="div15 div22">
+        <div class="div44 pan15">
+
+        </div>
+        <div class="div55">
+          Skin Care
+        </div>
+      </div>
+      <div class="div16 div22">
+        <div class="div44 pan16">
+
+        </div>
+        <div class="div55">
+          Oral Care
+        </div>
+      </div>
+      <div class="div17 div22">
+        <div class="div44 pan17">
+
+        </div>
+        <div class="div55">
+          Men's Grooming
+        </div>
+      </div>
+      <div class="div18 div22">
+        <div class="div44 pan18">
+
+        </div>
+        <div class="div55">
+          Creams & Lotions
+        </div>
+      </div>
+           <div class="div18 div22">
+        <div class="div44 pan18">
+
+        </div>
+        <div class="div55">
+          Creams & Lotions
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+  </div>
+  <!--  -->
+    <div>
+
+        <!--  -->
+        <div class="season">
+            <img class="sea" src="Assets/season.jpg" alt="">
+        </div>
+
+        <!--  -->
+        <div class="Curated-go">
+            <div class="Curated-goFor">
+                Brands You Love
+            </div>
+            <div class="Curated-goForYou">
+                <div class="-for">
+                    <div class="ran ra1">
+                        <img class="image" src="Assets/Bru.jpg" alt="">
+                    </div>
+                    <div>
+                        Bru
+                    </div>
+
+                </div>
+                <div class="-for">
+                    <div class="ran ra2">
+                        <img class="image" src="Assets/Colgate.jpg" alt="">
+                    </div>
+                    <div>
+                        Colgate
+                    </div>
+
+                </div>
+                <div class="-for">
+                    <div class="ran ra3">
+                        <img class="image" src="Assets/GRB.jpg" alt="">
+                    </div>
+                    <div>
+                        GRB
+                    </div>
+
+                </div>
+                <div class="-for">
+                    <div class="ran ra4">
+                        <img class="image" src="Assets/Surfexcel.jpg" alt="">
+                    </div>
+                    <div>
+                        Surfexcel
+                    </div>
+
+                </div>
+                <div class="-for">
+                    <div class="ran ra5">
+                        <img class="image" src="Assets/Fogg.jpg" alt="">
+                    </div>
+                    <div>
+                        Fogg
+                    </div>
+
+                </div>
+                <div class="-for">
+                    <div class="ran ra6">
+                        <img class="image" src="Assets/Godrej.jpg" alt="">
+                    </div>
+                    <div>
+                        Godrej
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+            <!--  -->
+        </div>
+        <!--  -->
+
+        <!--  -->
+        <div class="season1">
+            <img class="sea" src="Assets/Final2.jpg" alt="">
+        </div>
+              <div class="cardheading">
+                Quench Your Thirst
+            </div>
+         <!-- +++++++++++++++Quench Your Thrist++++++++++++++++ -->
+            <!-- <div class="cardheading">
+                Quench Your Thirst
+            </div> -->
+       
+        <div class="newcard">
+           
+            <div class="fullcard">
+
+                <div class="cardimg">
+                    <img src="Assets/Tajmahal.jpg" alt="Tajmahal" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Tajmahal</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/bru.jpg" alt="Bru" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Bru</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/leo.png" alt="Leo" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Leo</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/nescafe.jpg" alt="Nescafe" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Nescafe</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+
+
+        </div>
+        <!--  -->
+         <div class="showall">
+          <button>Show All <span class="sp-btn">↗</span></button>
+        </div>
+
+
+        <!--  -->
+        <div class="season1">
+            <img class="sea" src="Assets/soap.jpg" alt="">
+        </div>
+       <!--  -->
+         
+       <!-- +++++++++++Your Daily Essential ++++++++++++-->
+         <div class="cardheading">
+                Your Daily Essential
+            </div>
+        <div class="newcard3">
+           <div class="newcard2">
+                <div class="back">Chocolates</div>
+                <div>Dry Fruits</div>
+                <div>Oil & Ghee</div>
+                <div>Fabric Care</div>
+                <div>Disposables</div>
+               
+         </div>
+      </div>
+      <!--  -->
+      <div class="newcard4">
+           <div class="newcard1">
+           
+    
+            <div class="fullcard">
+
+                <div class="cardimg">
+                    <img src="Assets/munch.png" alt="munch" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Munch</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/5star.jpg" alt="5star" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">5Star</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/perk.png" alt="perk" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Amul Butter</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/polo.jpg" alt="polo" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Polo</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            
+
+        </div>
+         <div class="showall">
+          <button>Show All <span class="sp-btn">↗</span></button>
+        </div>
+        
+      </div>
+      <!--  -->
+      <div class="season1">
+            <img class="sea" src="Assets/baby.jpg" alt="">
+        </div>
+<!-- +++++++++Explore New Categories+++++++++ -->
+        <div class="cardheading">
+            Explore New Categories
+        </div>
+        <div class="newcard3">
+           <div class="newcard2">
+                <div class="back">Health Drinks</div>
+                <div>Bakery Treats</div>
+                <div>Pooja Utilities</div>
+                <div>Men Grooming</div>
+                <div>Vegetables</div>
+                
+         </div>
+      </div>
+      <!--  -->
+    <div class="newcard4">
+
+           <div class="newcard1">
+           
+    
+            <div class="fullcard">
+
+                <div class="cardimg">
+                    <img src="Assets/t1.jpg" alt="Boost" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Boost</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/t2.jpg" alt="Aachi" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Aachi Badam Mix</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/t3.jpg" alt="Horlics" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Horlics</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/t4.jpg" alt="bournvita" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Bournvita</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+
+
+        </div>
+         <div class="showall">
+          <button>Show All <span class="sp-btn">↗</span></button>
+        </div>
+    </div>
+<!--++++++++++++++++Dairy Delight For You+++++++++++++++++++-->
+
+        <div class="cardheading">
+            Dairy Delight For You
+        </div>
+       <div class="newcard">
+           
+    
+            <div class="fullcard">
+
+                <div class="cardimg">
+                    <img src="Assets/imgy1.png" alt="Amul" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Amul Butter</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/imgy2.png" alt="Milkymist" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Milkymist</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/imgy3.jpg" alt="Milkymist panner" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Milkymist Panner</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullcard">
+                <div class="cardimg">
+                    <img src="Assets/imgy4.png" alt="Cheese" />
+                </div>
+                <div class="carddetail">
+                    <h4 class="cardname">Cheese</h4>
+                    <div class="cardweight">
+
+                        <select class="cardw">
+                            <option value="100">100 gm</option>
+                            <option value="500">500 gm</option>
+                            <!-- more options -->
+                        </select>
+                    </div>
+                    <div class="cardprice">
+                        <span class="original-price">₹62</span>
+                        <span class="discounted-price">₹58</span>
+                    </div>
+                    <button class="cardbtn">Add to Cart</button>
+                </div>
+            </div>
+            <!--  -->
+
+
+        </div>
+        <div class="showall">
+          <button>Show All <span class="sp-btn">↗</span></button>
+        </div>
+
+
+        <!-- foooter -->
+         <div class="fullfooter">
+            <div class="fot1">
+                <div class="f1">
+                    <img src="Assets/p1.png" alt="Pothys Mart">
+                </div>
+                <p>
+                    407/7, G.S.T Road, Zamin Pallavaram,<br>
+                    Chromepet, Chengalpattu,<br>
+                    Tamil Nadu - 600044
+                </p>
+
+
+            </div>
+            <div class="fot2">
+                <h3>Need Help</h3>
+                <p>📞 <a href="tel:7305393222">7305393222</a> / <a href="tel:04443666333">04443666333</a></p>
+                <hr>
+                <p>📧 <a href="mailto:supermarket.chr@pothys.com">supermarket.chr@pothys.com</a></p>
+            </div>
+            <div class="fot3">
+                <div class="f11">
+                    <h4>Categories</h4>
+                    <a href="#">Staples</a> |
+                    <a href="#">Snacks</a> |
+                    <a href="#">Beverages</a> |
+                    <a href="#">Chilled Foods</a> |
+                    <a href="#">Ready To Cook</a> |
+                    <a href="#">Baby Care</a> |
+                    <a href="#">Household</a> |
+                    <a href="#">Cleaning</a> |
+                    <a href="#">Health Care</a>
+                </div>
+                <div class="f12">
+                    <b>Links</b>
+                    <p>Home Deals New Arrivals</p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <div class="last">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Refund Policy</a> |
+                <a href="#">Shipping Policy</a> |
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="social-icons">
+                <h4>Download Our App</h4>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                    alt="Google Play">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                    alt="App Store">
+            </div>
+            
+        </div>
+
+</body>
+
+</html>
